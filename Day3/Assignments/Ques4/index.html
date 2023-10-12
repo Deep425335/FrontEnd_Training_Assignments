@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <map name="tech">
+       <area shape="rect" coords="32,52,136,153" href="https://jquery.com/" alt="jQuery">
+       <area shape="rect" coords="169,40,361,176" href="https://angularjs.org/" alt="AngularJS">
+       <area shape="rect" coords="406,47,552,153" href="https://getbootstrap.com/" alt="Bootstarp">
+    </map>
+    <img   onmousemove="getCoords(event)"
+			src="ImageMap_Task_Technologies (1).png" 
+			alt="Workplace"
+			usemap="#tech" />
+			
+<h1 id="head1"></h1>
+    <script>
+        function   getCoords(e)
+        {
+            var obj = document.getElementById("head1");
+            //obj.innerText  = "X = " + e.ClientX + ",  Y = " + e.ClientY; // absolute coordinates from the browser
+            obj.innerText  = "X = " + e.offsetX + ",  Y = " + e.offsetY; //relative coordinates
+        }
+        </script>	
+</body>
+</html>
