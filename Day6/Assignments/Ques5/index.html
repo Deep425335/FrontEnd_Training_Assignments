@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #cat {
+         
+            height: 90%;
+            animation: divAnime;
+            animation-duration: 10s;
+            animation-direction: normal;
+            position: absolute;
+            margin-top: 80px;
+        }
+        
+        @keyframes divAnime {
+            from {
+                left: 0%; transform: scale3d(1)
+            }
+
+            to {
+                left: 50%;  transform: scale3d(-1)
+            }
+        }
+
+        body{
+            background-image: url('grass3.avif');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment:fixed;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+    
+    
+        <!-- <video src="cat.mp4" autoplay muted height="90%" width="50%"></video> -->
+      
+          <audio src="cat-meow-14536.mp3" autoplay ></audio>
+            <img id="cat" src="https://orig00.deviantart.net/b8e9/f/2015/257/3/2/cat_walking_animation_by_blackrozepetal-d99laup.gif" alt="cat">
+           
+        
+   
+</body>
+
+</html>
