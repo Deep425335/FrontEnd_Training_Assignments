@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/blueprint-css@3.1.3/dist/blueprint.min.css" rel="stylesheet" />
+    <style>
+        .dress{
+            /* border: 2px solid black; */
+            text-align: justify;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+      .dress  img{
+            height: 390px;
+            width: 100%;
+            background-color: lightgray;
+            text-align: center;
+        }
+        .dress a{
+            text-decoration: none;
+        }
+        .dress:hover{
+            border: 4px solid red;
+            box-shadow: 4px 4px 4px red;
+            background-color: rgb(201, 129, 129);
+        }
+    </style>
+</head>
+<body>
+    <div bp="grid">
+        <div class="dress" bp="3">
+            <img src="pic1.webp" alt="">
+            <h4>Image 1</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, consequatur. Suscipit velit iure ipsa tenetur sequi adipisci harum, provident veniam!</p>
+            <a href="pic1">Know more ></a>
+        </div>
+        <div class="dress" bp="3">
+            <img src="pic2.webp" alt="pic2">
+            <h4>Image 2</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum distinctio optio nesciunt hic eius harum natus adipisci beatae minima dolore?</p>
+            <a href="">Know more ></a>
+        </div>
+        <div class="dress" bp="3">
+            <img src="pic3.webp" alt="pic3">
+            <h4>Image 3</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium, pariatur? Excepturi possimus iste vero veritatis et harum aut quasi vitae?
+            </p>
+            <a href="">Know more ></a>
+        </div>
+        <div class="dress" bp="3">
+            <img src="pic4.webp" alt="pic4">
+            <h4>Image 4</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi natus neque facere repellendus facilis eaque molestiae soluta illum error nulla!</p>
+            <a href="">Know more ></a>
+        </div>
+    </div>
+</body>
+</html>
