@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            /* flex-direction: row; */
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        p{
+            border: 2px solid purple;
+            height: 20px;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: rgb(221, 130, 145);
+            box-shadow: 3px 3px 5px purple;
+            color: white;
+        }
+
+        img{
+            border: 2px solid purple;
+            box-shadow: 3px 3px 5px purple;
+            height: 150px;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        a{
+            height: 20px;
+            border: 2px solid purple;
+            box-shadow: 3px 3px 5px purple;
+            padding: 5px;
+            height: 20px;
+            text-decoration: none;
+            background-color: rgb(221, 130, 145);
+            border-radius: 5px;
+            color: white;
+
+        }
+    </style>
+</head>
+<body>
+    <div itemscope class="container">
+        
+            <img src="logo.jpg" alt="apple-logo" itemprop="apple-logo">
+            <a href="https://www.apple.com/in/store?afid=p238%7Csfo291LJq-dc_mtid_187079nc38483_pcrid_677073186475_pgrid_109516736059_pntwk_g_pchan__pexid__&cid=aos-IN-kwgo-brand--slid---product-" itemprop="apple-company-url">Apple</a>
+            <p>Hollywood, Los Angeles</p>
+            <img src="hollywoodcity.jpg" alt="" itemprop="city">
+            <p>Hollywood movie</p>
+            <img src="joker.jpg" alt="" itemprop="movie">
+            <p>Haldiram restaurant</p>
+            <img src="haldiram.jpg" alt="" itemprop="restaurant">
+            <p itemprop="person">Haldiram : A person</p>
+           
+    </div>
+
+</body>
+</html>
