@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Mathmatical Operations</h1>
+    <hr>
+    <label for="t1">First Number : </label>
+    <input type="number" id="t1" name="t1">
+    <br><br>
+    <label for="t2">Second Number : </label>
+    <input type="number" id="t2" name="t2">
+    <br><br>
+    <input type="button" id="b1" value="Add" onclick="add()">
+    <input type="button" id="b2" value="Sub" onclick="sub()">
+    <input type="button" id="b3" value="Multiply" onclick="mul()">
+    <input type="button" id="b3" value="Divide" onclick="divide()">
+    <span id="sp1"></span>
+</body>
+
+     <script>
+         function add()
+         {
+            var txtObj1 = document.getElementById("t1");
+            var txtObj2 = document.getElementById("t2");
+
+            var sum = parseFloat(txtObj1.value) + parseFloat(txtObj2.value);
+
+            var res = document.getElementById("sp1");
+
+            res.innerHTML = "<br><br>Result : "+sum;
+         }
+         
+         function sub()
+         {
+            var txtObj1 = document.getElementById("t1");
+            var txtObj2 = document.getElementById("t2");
+
+            var diff = parseFloat(txtObj1.value) - parseFloat(txtObj2.value);
+
+            var res = document.getElementById("sp1");
+
+            res.innerHTML = "<br><br>Result : "+diff;
+         }
+         function mul()
+         {
+            var txtObj1 = document.getElementById("t1");
+            var txtObj2 = document.getElementById("t2");
+
+            var pro = parseFloat(txtObj1.value) * parseFloat(txtObj2.value);
+
+            var res = document.getElementById("sp1");
+
+            res.innerHTML = "<br><br>Result : "+pro;
+         }
+         function divide()
+         {
+            var txtObj1 = document.getElementById("t1");
+            var txtObj2 = document.getElementById("t2");
+
+            var div = parseFloat(txtObj1.value) / parseFloat(txtObj2.value);
+
+            var res = document.getElementById("sp1");
+
+            res.innerHTML = "<br><br>Result : "+div;
+         }
+     </script>
+</html>
