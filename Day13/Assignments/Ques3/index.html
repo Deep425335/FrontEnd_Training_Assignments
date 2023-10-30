@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         button{
+            height: 40px;
+            width: 50%;
+            background-color: red;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            border-radius: 10px;
+            border: none;
+        }
+        table{
+            background-color: rgb(241, 197, 204);
+            box-shadow: 3px 3px 6px red;
+            border: 2px solid red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: large;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="fun1()">Show Data</button>
+    <br><br>
+    <table id="t1" cellspacing="0" cellpadding="20px" border="2" width="70%">
+        <tr>
+            <td style="background-color: red; color: white;">Name</td>
+            <td style="background-color: red; color: white;">City</td>
+            <td style="background-color: red; color: white;">Country</td>
+        </tr>
+    </table>
+</body>
+
+    <script>
+        function fun1(){
+            var arr = [ {"Name":"Alfreds Futterkiste","City":"Berlin","Country":"Germany"}, 
+                    {"Name":"Ana Trujillo Emparedados y helados","City":"México D.F.","Country":"Mexico"}, 
+                    {"Name":"Antonio Moreno Taquería","City":"México D.F.","Country":"Mexico"}, 
+                    {"Name":"Around the Horn","City":"London","Country":"UK"}, 
+                    {"Name":"B's Beverages","City":"London","Country":"UK"}, 
+                    {"Name":"Berglunds snabbköp","City":"Luleå","Country":"Sweden"}, 
+                    {"Name":"Blauer See Delikatessen","City":"Mannheim","Country":"Germany"}, 
+                    {"Name":"Blondel père et fils","City":"Strasbourg","Country":"France"}, 
+                    {"Name":"Bólido Comidas preparadas","City":"Madrid","Country":"Spain"}, 
+                    {"Name":"Bon app'","City":"Marseille","Country":"France"}, 
+                    {"Name":"Bottom-Dollar Marketse","City":"Tsawassen","Country":"Canada"}, 
+                    {"Name":"Cactus Comidas para llevar","City":"Buenos Aires","Country":"Argentina"}, 
+                    {"Name":"Centro comercial Moctezuma","City":"México D.F.","Country":"Mexico"}, 
+                    {"Name":"Chop-suey Chinese","City":"Bern","Country":"Switzerland"}, 
+                    {"Name":"Comércio Mineiro","City":"São Paulo","Country":"Brazil"} ];
+
+                    var tabObj = document.getElementById("t1");
+                    var str = "";
+                    for(let item of arr){
+                        str += `<tr><td>${item.Name}</td><td>${item.City}</td><td>${item.Country}</td></tr>`
+                    }
+
+                    tabObj.innerHTML += str;
+        }
+    </script>
+
+</html>

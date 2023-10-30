@@ -1,0 +1,22 @@
+1.  Create a web page to define the functions for the following requirements + with UI
+			a.  Function to find out the no. of even numbers in the given array .
+			b.  Function to find out power value  ( x power y)
+			c.   Function to return no. of words in the given string.  
+				
+2.   Create a web page to prepare employee object with the following properties:
+				
+				a.  empno, ename, job, sal, deptno
+				b.  Implement all three techniques to create object
+
+3.  Create separate web pages to display data using Array of objects. 
+
+		Hint :  copy the data from the below url :				
+					https://www.w3schools.com/angular/customers.php
+					https://reqres.in/api/users
+  
+4.  What is map() method in Array?   How to use map() method?
+
+5.   Find the details about following methods of Array:
+					find(),  findIndex(),  filter()
+
+ 

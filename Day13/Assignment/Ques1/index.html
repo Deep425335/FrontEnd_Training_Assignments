@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr,td{
+            border: 1px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    
+        <h2>Operations on Arrays</h2>
+        <hr>
+        <input type="button" value="Show Data" onclick="display()">
+        <br/><br>
+        <table id="details" style=" border: 2px double black; width:200px;">
+        </table>
+    
+</body>
+    <script>
+        function display(){
+            var arr = ["HTML", "CSS3", "jQuery", "Angular JS", "Bootstrap"];
+            var tableObj = document.getElementById('details');
+            var str = "";
+            
+            for (const i in arr) {
+                var n = parseInt(i) + 1;
+                // str += "<tr><td>" + n + "</td>" + "<td>" + arr[i] + "</td></tr>";
+                str += `<tr><td> ${n}</td><td>${arr[i]}</td></tr>`;
+            }
+            
+            tableObj.innerHTML = str;
+        }
+    </script>
+</html>

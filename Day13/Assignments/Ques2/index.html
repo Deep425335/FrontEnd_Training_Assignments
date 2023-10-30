@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+        }
+        .box{
+            width: 25%;
+            height: 280px;
+            box-shadow: 3px 3px 4px red;
+            border: 2px solid red;
+            margin-top: 40px;
+            padding-top: 30px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        p{
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: 600;
+            color: rgb(255, 0, 72);
+            font-size: medium;
+        }
+
+        button{
+            height: 40px;
+            width: 50%;
+            background-color: red;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            border-radius: 10px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <button onclick="fun1()">Object Initializer</button>
+            <p id="p1"></p>
+        </div>
+
+        <div class="box">
+            <button onclick="fun2()">Empty Object</button>
+            <p id="p2"></p>
+        </div>
+
+        <div class="box">
+            <button onclick="fun3()">Constructor Function</button>
+            <p id="p3"></p>
+        </div>
+    </div>
+</body>
+   <script>
+       function fun1(){
+         var emp1 = {empno : 101, ename : "Scott", ejob : "Associate Analyst", sal : 50000, deptno : 2};
+
+         var pObj = document.getElementById('p1');
+         pObj.innerHTML = `Employee Number : ${emp1.empno}<br>Employee Name : ${emp1.ename}<br>Job : ${emp1.ejob}<br>Salary : ${emp1.sal}<br>Department Number : ${emp1.deptno}`;
+       }
+
+       function fun2(){
+           var emp2 = {};
+           emp2.empno = 102;
+           emp2.ename = "Smith";
+           emp2.ejob = "Associate Analyst";
+           emp2.sal = 50000;
+           emp2.deptno = 3;
+
+           var pObj2 = document.getElementById('p2');
+         pObj2.innerHTML = `Employee Number : ${emp2.empno}<br>Employee Name : ${emp2.ename}<br>Job : ${emp2.ejob}<br>Salary : ${emp2.sal}<br>Department Number : ${emp2.deptno}`;
+       }
+
+       function Emp(){
+        this.empno = 103;
+        this.ename = "James";
+        this.ejob = "Associate Analyst";
+        this.sal = 50000;
+        this.deptno = 4;
+       }
+
+       function fun3(){
+          var emp3 = new Emp();
+          var pObj3 = document.getElementById('p3');
+         pObj3.innerHTML = `Employee Number : ${emp3.empno}<br>Employee Name : ${emp3.ename}<br>Job : ${emp3.ejob}<br>Salary : ${emp3.sal}<br>Department Number : ${emp3.deptno}`;
+       }
+   </script>
+</html>
