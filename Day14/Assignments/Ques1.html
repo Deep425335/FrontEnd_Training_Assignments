@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         button{
+            height: 40px;
+            width: 50%;
+            background-color: red;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+            border-radius: 10px;
+            border: none;
+        }
+        
+        table{
+            background-color: rgb(241, 197, 204);
+            box-shadow: 3px 3px 6px red;
+            border: 2px solid red;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 300;
+            font-size: large;
+            color: red;
+        }
+        input{
+            height: 50px;
+            width: 20%;
+            margin: 20px;
+            border: 2px solid red;
+            border-radius: 10px;
+            font-size: medium;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            font-weight: 600;
+            color: red;
+        }
+    </style>
+</head>
+<body bgcolor="black">
+    <h1>Enter Employee Details</h1>
+    <hr>
+    <input type="text" id="t1" name="t1" placeholder="Enter Employee Id">
+    <input type="text" id="t2" name="t2" placeholder="Enter Employee name">
+    <input type="number" id="t3" class="t3" placeholder="Enter salary">
+    <input type="text" id="t4" name="t1" placeholder="Enter job">
+    <br>
+    <button id="b1" name="b1" onclick="fun()">Add to table</button>
+    <hr>
+
+</body>
+    <script>
+                var tabObj = document.createElement('table');
+                tabObj.setAttribute("cellspacing","10");
+                tabObj.setAttribute("cellpadding","10");
+                tabObj.setAttribute("border","2");
+                document.body.appendChild(tabObj);
+
+                let cellObj1 = document.createElement('th');
+                let cellObj2 = document.createElement('th');
+                let cellObj3 = document.createElement('th');
+                let cellObj4 = document.createElement('th');
+
+
+                cellObj1.innerHTML = "Employee Id";
+                cellObj2.innerHTML = "Employee Name";
+                cellObj3.innerHTML = "Employee Salary";
+                cellObj4.innerHTML = "Employee Job";
+                var row = tabObj.insertRow(-1);
+                row.appendChild(cellObj1);
+                row.appendChild(cellObj2);
+                row.appendChild(cellObj3);
+                row.appendChild(cellObj4);
+        
+            function fun(){
+
+                var row = tabObj.insertRow(-1);
+                var txtObj1 = document.getElementById('t1');
+                var txtObj2 = document.getElementById('t2');
+                var txtObj3 = document.getElementById('t3');
+                var txtObj4 = document.getElementById('t4');
+
+                var cell1 = row.insertCell(-1);
+                var cell2 = row.insertCell(-1);
+                var cell3 = row.insertCell(-1);
+                var cell4 = row.insertCell(-1);
+
+                cell1.innerHTML = txtObj1.value;
+                cell2.innerHTML = txtObj2.value;
+                cell3.innerHTML = txtObj3.value;
+                cell4.innerHTML = txtObj4.value;
+
+            }
+    </script>
+</html>
