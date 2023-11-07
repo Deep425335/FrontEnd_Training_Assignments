@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The App Group | A Leader in Property and Infrastructure Advisory</title>
+
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"  rel="stylesheet"  />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	
+    <script  src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"> </script>
+
+    <style>
+        
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
+       .bg p{
+            font-family: "Neue Haas Grotesk  Display Pro",sans-serif;
+            font-weight: 700;
+            color: #fff;
+            font-size: 85px;
+            line-height: 0.85;
+            word-spacing: 0.3px;
+            padding-top: 20px;       
+        }
+    
+        .bg{
+            background-image: url('https://www.app.com.au/sites/default/files/styles/product_banner/public/2023-06/North%20East%20Link.jpg?itok=LhClYtua');
+            height: 510px;
+            /* width: 100%; */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            opacity: 1;
+            padding-left: 30px;
+            padding-top: 130px;
+            box-shadow: 0px 0px 0px 4000px rgba(19, 35, 48, 0.5) inset;
+        }
+        .bg nav{
+            background-color: rgb(0,151,85);
+            opacity: 1;
+        }
+       .bg .menu-container i{
+            color: white;
+            font-size: large;
+            font-weight: 700;
+            
+        }
+        .bg .menu-container{
+            margin-left: 160px;
+        }
+        .bg .menu-container li{
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            font-size: large;
+            font-weight: 700;
+            height: 87px;
+            margin-right: 20px;
+         }
+        .bg .menu-container a{
+            margin-top: 30px;
+            color: white;
+         }
+
+         /* first section serach bar */
+         .bg #searchBar{
+            display: flex;
+            width: 70%;
+            background-color: rgb(0,151,85);
+            opacity: 0.8;
+            height: 70px;
+            border-radius: 50px;
+            align-items: center;
+            justify-content: space-around;
+         }
+         .bg #searchBar span{
+            color: #fff;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            font-size: 21px;
+         }
+         .bg #searchBar select{
+            background-color: rgb(0,151,85);
+            
+            border: none;
+            border-bottom: 1px solid white;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            font-size: x-large;
+            color: white;
+         }
+         
+         .bg #searchBar i{
+            font-size: 40px;
+            border-radius: 50%;
+            background-color: rgb(0,151,85);
+            color: #fff;
+        }
+
+        /* section-2 */
+
+        #div2{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 80px;
+            margin-bottom: 80px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        
+        
+        #div2 #div2-div1 span{
+             font-size: 17px;
+             font-weight: 700;
+             color: rgb(0,73,34);
+             font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+
+        }
+        #div2 #div2-div1 h1{
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            color: rgb(0,151,85);
+            font-size: 65px;
+            font-weight: 700;
+        }
+        #div2 #div2-div1 p{
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            font-size: 18px;
+        }
+        #div2 #div2-div1 button{
+            height: 55px;
+            width: 160px;
+            background-color: rgb(0,151,85);
+            color: #fff;
+            border-radius: 50px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            border: none;
+            font-size: 18px;
+            
+        }
+        
+        /* section-3 */
+        #div3{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        /* section-4 */
+        #div4{
+            padding-top: 90px;
+            margin-bottom: 40px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        #div4 h1{
+            font-size: 70px;
+             font-weight: 550;
+             color: rgb(0,151,85);
+             font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+
+        #div4 p{
+            font-size: 18px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+        
+        #div4 button{
+            height: 55px;
+            width: 200px;
+            background-color: rgb(0,151,85);
+            font-size: 18px;
+            color: #fff;
+            border-radius: 50px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            border: none;
+            
+        }
+
+        /* section-5 */
+        #div5{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 80px;
+            padding-bottom: 110px;
+            padding-top: 70px;
+            flex-direction: column;
+            background-color: rgb(246,246,246);
+           
+        }
+
+        /* section6 */
+        #div6{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 30px;
+        }
+
+        #div6 h1{
+            font-size: 70px;
+             font-weight: 550;
+             color: rgb(0,151,85);
+             font-family: "Neue Haas Grotesk Display Pro",sans-serif; 
+        }
+
+        #div6 p{
+            font-size: 18px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+        #div6 #div6-div1{
+            width: 33%;
+        }
+        #div6 #div6-div2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap:wrap;
+            width: 60%;
+            
+        }
+        #div6 #div6-div2 img{
+            width: 120px;
+            margin: 30px;
+        }
+
+        /* section-7 */
+        #div7{
+            display: flex;
+            justify-content: flex-end;
+            background-image: url('https://www.app.com.au/sites/default/files/styles/feature_image/public/2023-06/Updated%20Sydney%20Office%20Staff%202019.png?h=1b6b5d13&itok=cCJs2aTg');
+            width: 100%;
+            height: 800px;
+            padding-top: 150px;
+            margin-bottom: 120px;
+        }
+        
+        #div7 #div7-div1{
+           width: 40%;
+        }
+        #div7 #div7-div1 span{
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif; 
+            font-size: large;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        #div7  #div7-div1 h1{
+            font-size: 70px;
+             font-weight: 550;
+             color: #fff;
+             font-family: "Neue Haas Grotesk Display Pro",sans-serif; 
+        }
+
+        #div7  #div7-div1 p{
+            font-size: 18px;
+            color: #fff;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+
+        #div7  #div7-div1 button{
+            height: 55px;
+            width: 160px;
+            background-color: rgb(0,151,85);
+            font-size: 18px;
+            color: #fff;
+            font-weight: 300;
+            border-radius: 50px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            border: none;
+        }
+
+        /* section-8 */
+        #div8{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin: 30px;
+            margin-bottom: 200px;
+        }
+        #div8 #div8-div1{
+            width: 32%;
+        }
+        #div8 #div8-div1 h1{
+            line-height: 77px;
+            font-size: 70px;
+             font-weight: 550;
+             color: rgb(0,151,85);
+             font-family: "Neue Haas Grotesk Display Pro",sans-serif; 
+        }
+        #div8 #div8-div1 p{
+            font-size: 18px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+        #div8 #div8-div1 button{
+            height: 55px;
+            width: 160px;
+            background-color: rgb(0,151,85);
+            font-size: 18px;
+            color: #fff;
+            border-radius: 50px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            border: none;
+        }
+        #div8 #div8-div2{
+            width: 16%;
+        }
+        #div8 #div8-div2 h3{
+            line-height: 27px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            color: rgb(0,73,34);
+            font-weight: 600;
+        }
+        #div8 #div8-div2 p{
+            font-size: 18px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+        #div8 #div8-div3{
+            width: 16%;
+        }
+        #div8 #div8-div3 h3{
+            line-height: 27px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            color: rgb(0,73,34);
+            font-weight: 600;
+        }
+        #div8 #div8-div3 p{
+            font-size: 18px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+        #div8 #div8-div4{
+            width: 16%;
+        }
+        #div8 #div8-div4 h3{
+            line-height: 27px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            color: rgb(0,73,34);
+            font-weight: 600;
+        }
+        #div8 #div8-div4 p{
+            font-size: 18px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+        #div8 #div8-div5{
+            width: 16%;
+        }
+        #div8 #div8-div5 h3{
+            line-height: 27px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            color: rgb(0,73,34);
+            font-weight: 600;
+        }
+        #div8 #div8-div5 p{
+            font-size: 18px;
+           font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+
+        /* section9 */
+        #div9{
+            display: flex;
+            height: 190px;
+            justify-content: flex-end;
+            width: 100%;
+            height: 620px;
+            background-image: url('images/footerbg2.svg');
+            padding-top: 60px;
+            padding-left: 30px;
+            padding-right: 30px;
+            line-height: 50px;
+            
+        }
+        #div9 #div9-div1 h5{
+            font-size: 21px;
+            font-weight: 650;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            color: #fff;
+        }
+
+        #div9 #div9-div1 li{
+            list-style: none;
+            color: #fff;
+            font-size: 21px;
+            font-weight: 300;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+        #div9 #div9-div1 img{
+            height: 40px;
+            width: 40px;
+
+        }
+
+        #div9 #div9-div2 h1{
+            line-height: 25px;
+            font-size: 40px;
+             font-weight: 550;
+             color: #fff;
+             font-family: "Neue Haas Grotesk Display Pro",sans-serif; 
+        }
+
+        #div9 #div9-div2 p{
+            font-size: 15px;
+            color: #fff;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+        #div9 #div9-div2 form label{
+            font-size: 22px;
+            color: #fff;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+        }
+        #div9 #div9-div2 label{
+            width: 70%;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 400;
+            background-color: rgb(0,151,85);
+            border: none;
+            text-align: center;
+            border-bottom: 2px solid #fff;
+        }
+        #div9 #div9-div2 button{
+            height: 55px;
+            width: 120px;
+            background-color: #fff;
+            font-size: 18px;
+            color: rgb(0,151,85);
+            border-radius: 50px;
+            font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+            border: none;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- first section -->
+    <div class="bg">
+        <!-- nav bar     -->
+        <nav class="fixed-top navbar navbar-expand-sm navbar-light">
+
+            <!-- Part1: logo -->
+            <a class="navbar-brand" href="home.html" style="margin-left: 20px;">
+                <img src="images/logo.svg" alt="logo">
+            </a>
+    
+            <!-- Part2 hamburger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button>
+    
+            <div class="menu-container">
+                <!-- Part3 menu -->
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="navbardrop1" data-bs-toggle="dropdown">Who we are</a>
+    
+                        <div class="dropdown-menu" style="background-color: rgb(0,151,85);color: #fff;">
+                            <a href="https://www.app.com.au/our-purpose" class="dropdown-item">Our purpose</a>
+                            <a href="https://www.app.com.au/business" class="dropdown-item">Our business</a>
+                            <a href="https://www.app.com.au/leaders" class="dropdown-item">Our leaders</a>
+                            <a href="https://www.app.com.au/impact" class="dropdown-item">Our social impact</a>
+                            <a href="https://www.app.com.au/our-legacy" class="dropdown-item">Our legacy</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What we do</a>
+                        <div class="dropdown-menu" style="background-color: rgb(0,151,85);color: #fff;">
+                           <a href="#" class="dropdown-item">Sectors</a>
+                           <a href="#" class="dropdown-item">Services</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Website/Our Project/OurProject.html">Our Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="PROJECT/Insights.html">Insights</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Careers</a>
+                        <div class="dropdown-menu" style="background-color: rgb(0,151,85);color: #fff;">
+                           <a href="Website/Careers_Page_WhoWeAre/carrers.html" class="dropdown-item">Why join us</a>
+                           <a href="Website/Carrers_CurrentOpp/CurrentOpp.html" class="dropdown-item">Current opportunities</a>
+                           <a href="Website/Carrers_Graduate/graduate.html" class="dropdown-item">Graduate program</a>
+                        </div>
+                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="PROJECT/Contact-Us.html">Contact</a>
+                      </li>
+                </ul>
+                <i class="bi bi-search"></i>
+            </div>
+            
+            </div>
+        </nav>
+        <p>A Leader  in Property &</p><p>Infrastructure</p>
+        <!-- searchbar -->
+
+        <div id="searchBar">
+            <span>Explore our expertise across a range of key sectors</span>
+            <select name="sector" id="sector">
+                <option value="Select sector">Select sector</option>
+                <option value="Transport">Transport</option>
+                <option value="Property">Property</option>
+                <option value="Social Infrastructure">Social Infrastructure</option>
+                <option value="Energy & Utilities">Energy & Utilities</option>
+                <option value="Defense">Defense</option>
+            </select>
+
+            <a href="#"><i class="bi bi-arrow-right-circle-fill"></i></a>
+        </div>
+    </div>
+   
+    <!-- second section -->
+    
+    <div id="div2">
+        <div id="div2-div1" class="common-div" style="width: 32%;">
+            <span>NEWS</span>
+            <h1>Defence Partnership</h1>
+            <p>
+                We’re pleased to announce that The APP Group has acquired Canberra-based Defence consultancy, Terra Schwartz. 
+                <br>
+                The acquisition enhances and diversifies The APP Group’s already established Defence business by strengthening its end-to-end procurement, commercial, ICT, workforce and contract management capabilities for complex Defence and federal government agency engagements
+            </p>
+            <br>
+            <button>Read more &nbsp;&nbsp;<i class="bi bi-arrow-right" style="color: lightgreen;"></i></button>
+        </div>
+
+        <div class="card" style="border-radius: 20px;width: 32%">
+            <img src="images/lights.jpeg" alt="lights" style="width:100%;border-radius: 12px;">
+        </div>
+
+        <div class="card" style="border-radius: 20px; width: 32%;">
+            <img src="images/aeroplane.jpeg" alt="aeroplane" style="width:100%;border-radius: 12px;">
+        </div>
+    </div>
+
+    <!-- third section -->
+    <div id="div3">
+        <div class="card" id="div2-div1" style="width: 65%; height: 550px;">
+            <img src="images/Waterman Eastland Interior.jpg" alt="image3" style="width: 100%;height: 550px;">
+        </div>
+        <div class="card" id="div2-div2" style="height: 550px;width: 35%; background-image: url('images/section3.svg');">
+            <!-- <img src="" alt="section3" style="width:100%; height: 550px;"> -->
+            <div class="container" style="margin-top: 50px;margin-left: 40px;">
+                <h4 style="font-size: 18px;font-weight: 550;color: #fff;
+                font-family: Neue Haas Grotesk Display Pro,sans-serif;">OUR SERVICES</h4>
+                <h1 style="font-size: 70px;
+                font-weight: 550;
+                color: #fff;
+                font-family: Neue Haas Grotesk Display Pro,sans-serif;
+                line-height: 65px">Delivering value</h1>
+                <ul style="list-style: none; font-family: eue Haas Grotesk Display Pro,sans-serif;
+                color: #fff;
+                font-size: 18px;
+                font-weight: 600;">
+                    <li><a href="#">Strategy Advisory</a></li>
+                    <li><a href="#">Commercial Management</a></li>
+                    <li><a href="#">Development Management</a></li>
+                    <li><a href="#">Project Management</a></li>
+                    <li><a href="#">Real Estate</a></li>
+                    <li><a href="#">Project Controls</a></li>
+                    <li><a href="#">Delivery Partner</a></li>
+                    <li><a href="#">Assurance, Compliance & Certification</a></li>
+                    <li><a href="#">Technical Services</a></li>
+                    <li><a href="#">Digital Integration</a></li>
+                    <li><a href="#">Asset Management & Optimisation</a></li>
+                </ul>
+            </div>
+          </div>
+    </div>
+
+    <!-- fourth section -->
+    <div id="div4">
+        <h1>Our project experience</h1>
+        <p>
+            We provide market leading expertise and advice to help tackle Australia’s most complex projects and <br>challenges, backed by our 550-strong nationwide team.</p>
+            <br>
+        <p> Discover the scale and depth of our current and past projects and the valued clients we support.  
+        </p>
+        <button>View all projects &nbsp;&nbsp;<i class="bi bi-arrow-right" style="color: lightgreen;"></i></button>
+    </div>
+
+    <!-- fifth section -->
+    <div id="div5">
+    <div id="div5-div1" style="display: flex; flex-direction: horizontal; justify-content: space-around; width: 100%; margin:40px">
+        
+        <div class="card" style="width: 65%;border-radius: 10px; height: 330px; ">
+            <img src="https://www.app.com.au/sites/default/files/styles/related_projects/public/2023-06/Development-and-Urban-Design-Plans-Port-CityLink-and-city-connections-150%20-%20Created%20by%20Piers%20McCormas.jpg?h=5b8ba1d5&amp;itok=g0jvk_l0" alt="image" style="width:100%; height: 330px; border-radius: 10px;">
+            <!-- <div class="container">
+                <span><a href="#">Tunnels</a></span>
+                <span><a href="#">Bridges</a></span>
+                <span><a href="#">Government</a></span
+                <span><a href="#">Victoria</a></span>
+            </div> -->
+          </div>
+          <div class="card" style="width: 30%; border-radius: 10px; height: 330px;">
+            <img src="https://www.app.com.au/sites/default/files/styles/related_projects/public/2023-06/HERO_Chadstone%20Shopping%20Centre%20Atrium.jpg?h=1dd3cf61&amp;itok=LAfajeJj" style="width:100%;height: 330px;border-radius: 10px;">
+                <!-- <div class="container">
+                    <span><a href="#">Property</a></span>
+                    <span><a href="#">Retail</a></span>
+                    <span><a href="#">Mixed-Use</a></span>
+                    <span><a href="#">Victoria</a></span>
+                    <h2>Chadstone Shopping Centre Atrium</h2>
+                    <a href="#">View project<i class="bi bi-arrow-right"></i></a>
+                    <br><br><br><br>
+                    <span>Project Management</span>
+                </div> -->
+            </div>
+          </div>
+        
+        <div id="div5-div2" style="display: flex; flex-direction: horizontal; justify-content: space-around; width: 100%; margin-left: 40px; margin-right: 40px;">
+            <div class="card" style="width: 30.5%;border-radius: 10px; height: 330px; ">
+                <img src="https://www.app.com.au/sites/default/files/styles/related_projects/public/2023-06/HERO_sydney-metro-project.jpg?h=cfea4fea&amp;itok=cyqg7sQ6" style="width:100% ;height: 330px; border-radius: 10px;">
+                <!-- <div class="container" >
+                    <span><a href="#">Transport</a></span>
+                    <span><a href="#">Rail</a></span>
+                    <span><a href="#">Tunnels</a></span>
+                    <span><a href="#">Government</a></span>
+                    <span><a href="#">New South Wales</a></span>
+                    <h2>Sydney Metro</h2>
+                    <a href="#">View project<i class="bi bi-arrow-right"></i></a>
+                    <br><br><br><br>
+                    <span>Strategic Advisory</span>
+                    <span>Commercial Management</span>
+                    <span>Assurance, Compliance & Certification</span>
+                </div> -->
+            </div>
+            
+            <div class="card" style="width: 30.5%;border-radius: 10px; height: 330px; ">
+                <img src="https://www.app.com.au/sites/default/files/styles/related_projects/public/2023-07/DD%20ASB%20Image_resized%20%284%29.jpg?h=1675ffb1&amp;itok=6_cQGV5S" style="width:100%; height: 330px; border-radius: 10px;">
+                <!-- <div class="container">
+                    <span><a href="#">Social Infrastructure</a></span>
+                    <span><a href="#">Health</a></span>
+                    <span><a href="New South Wales"></a>
+                </div> -->
+            </div>
+
+            <div class="card" style="width: 30.5%;border-radius: 10px; height: 330px;">
+                <img src="https://www.app.com.au/sites/default/files/styles/related_projects/public/2023-06/HERO_230421-12010.JPG?h=8aa5fa2d&amp;itok=0riAdIXB" alt="One The Esplanade" style="width:100% ;height: 330px; border-radius: 10px;">
+            </div>
+        </div>
+    </div>
+        
+<!-- section -6 -->
+<div id="div6">
+    <div id="div6-div1">
+        <h1>Our Clients</h1>
+        <p>
+            We are proudly positioned next to Australia’s visionary companies and organisations; those embracing change.
+        </p>
+    </div>
+    <div id="div6-div2">
+       <img src="images/01 Department of Defence Stacked_1.png" alt="">
+       <img src="images/02 NSW Transport for NSW_0.png" alt="">
+       <img src="images/03 NSW Health_0.png" alt="">
+       <img src="images/05 Mainroads WA_0.svg" alt="">
+       <img src="images/06 Landcom.png" alt="">
+       <img src="images/06 Mainroads QLD_0.png" alt="">
+       <img src="images/07 SYD Sydney Airport.png" alt="">
+       <img src="images/08 North East Link.png" alt="">
+       <img src="images/09 Cross River Rail.png" alt="">
+       <img src="images/10 Geelong Port.png" alt="">
+       <img src="images/11 Vicinity Centres.png" alt="">
+       <img src="images/12 Westpac Square.png" alt="">
+       <img src="images/13 UGL.png" alt="">
+       <img src="images/14 Airbus.png" alt="">
+       <img src="images/15 TAFE NSW.png" alt="">
+
+    </div>
+</div>
+
+<!-- section-7 -->
+<div id="div7">
+    <div id="div7-div1">
+        <span>CAREERS</span>
+        <h1>A Culture Of Opportunity</h1>
+        <p>Join an agile high-performing team of leaders and innovators who thrive on exceeding expectations.</p>
+        <button>Learn more &nbsp;&nbsp;<i class="bi bi-arrow-right" style="color: lightgreen;"></i></button>
+    </div>
+</div>
+
+<!-- section-8 -->
+<div id="div8">
+    <div id="div8-div1">
+        <h1>Making the difference</h1>
+        <p>Social impact starts with understanding the connections we forge.</p>
+        <button>Learn more &nbsp;&nbsp;<i class="bi bi-arrow-right" style="color: lightgreen;"></i></button>
+    </div>
+    <div id="div8-div2">
+        <h3>Partnering with the Raise Foundation</h3>
+        <br>
+        <p>Mentors for young people in need.</p>
+    </div>
+    <div id="div8-div3">
+        <h3>Working with Odyssey House</h3>
+        <br>
+        <p>A shared vision for a more caring and cohesive society.   jn</p>
+    </div>
+    <div id="div8-div4">
+        <h3>Our Reconciliation Journey</h3>
+        <br>
+        <p>Learn more about our Innovate Reconciliation Action Plan.</p>
+    </div>
+    <div id="div8-div5">
+        <h3>Climate Active</h3>
+        <br>
+        <p>The APP Group's business operations are certified carbon neutral.c</p>
+    </div>
+</div>
+   
+<!-- section-9 -->
+<div id="div9" class="row">
+    <!-- <img src="images/footerbg2.svg" alt=""> -->
+    <div id="div9-div1" class="row col-8">
+        <div class="col-3">
+           <h5>Who we are</h5>
+           <li>Our purpose</li>
+           <li>Our business</li>
+           <li>Our leaders</li>
+           <li>Our social impact</li>
+           <li>Our legacy</li>
+        </div>
+        <div class="col-3">
+            <h5>What we do</h5>
+           <li>Transpost</li>
+           <li>Property</li>
+           <li>Social Infrastructure</li>
+           <li>Energy & Utilities</li>
+           <li>Defence</li>
+        </div>
+        <div class="col-3">
+            <h5>Careers</h5>
+            <li>Why join us</li>
+            <li>Current Opportunities</li>
+            <li>Graduate program</li>
+        </div>
+        <div class="col-3">
+            <h5>Contact</h5>
+            <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fappcorp%2F"><img src="images/instagram.svg" alt="instagram"></a>
+            <a href="https://www.linkedin.com/company/the-app-group-advisory/"><img src="images/linkedin.svg" alt="linkedin"></a>
+            <a href="https://www.youtube.com/channel/UCq6_ZdBHe788R-nQNfJZ-Tw"><img src="images/youtube.svg" alt="yt"></a>
+        </div>
+    </div>
+
+    <div id="div9-div2" class="col-4">
+        <h1>Let's connect</h1>
+        <p>Stay on top of the latest progress, news, and insights.</p>
+        
+            <div class="form-floating">
+                <input type="text" id="txt1" class="form-control"placeholder="Name *">
+                <label for="txt1">Name *</label>
+            </div>
+            <br>
+            <div class="form-floating">
+                <input type="text" id="txt2" class="txt2" class="form-control" placeholder="Company *">
+                <label for="txt2">Company *</label>
+            </div>
+            <br>
+            
+            <div class="form-floating">
+                <input type="email" id="txt3" class="txt3" class="form-control" placeholder="Email *">
+               <label for="txt3">Email *</label>
+            </div>
+            <br>
+            <button>Submit &nbsp;&nbsp;<i class="bi bi-arrow-right" style="color: lightgreen;"></i></button>
+        
+    </div>
+</div>
+
+</body>
+</html>

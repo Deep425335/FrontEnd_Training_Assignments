@@ -1,0 +1,16 @@
+<svg width="1920" height="500" viewBox="0 0 1920 500"  preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1920" height="500" fill="#004922"/>
+<mask id="mask0_751_7239" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="500">
+<rect width="1920" height="500" fill="#009755"/>
+</mask>
+<g mask="url(#mask0_751_7239)">
+<circle cx="1173.62" cy="-38.375" r="621.625" transform="rotate(-90 1173.62 -38.375)" fill="url(#paint0_linear_751_7239)"/>
+<circle cx="2328.25" cy="307.823" r="663.823" stroke="#5DFBAA" stroke-opacity="0.8" stroke-width="8"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_751_7239" x1="1008.22" y1="139.826" x2="698.528" y2="389.372" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="1" stop-color="#5DFBAA" stop-opacity="0.4"/>
+</linearGradient>
+</defs>
+</svg>

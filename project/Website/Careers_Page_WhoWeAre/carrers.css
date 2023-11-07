@@ -1,0 +1,77 @@
+.banner{
+    height: 600px;
+    width: 100%;
+    background-image: url(banner1.jpg);
+    background-size: cover;
+}
+
+.display-1{
+    position: absolute;
+    bottom: 1px;
+    left: 16px;
+    color: white;
+    font-size: 80px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+#ul1 li{
+    float: left;
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    list-style: none;
+    margin-top: 0;
+
+}
+
+#ul1{
+    text-decoration: none;
+}
+
+.card1{
+    display: inline-block;
+   border: none;
+    width: 300px;
+    margin: 15px;
+    margin-top: 0;
+}
+
+.card2{
+    display: inline;
+    height: 100px;
+    width: 300px;
+}
+
+.card{
+    display: inline-block;
+}
+
+li{
+    color: green;
+}
+
+.bg nav{
+    background-color: rgb(0,151,85);
+    opacity: 1;
+}
+.bg .menu-container i{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+   
+}
+.bg .menu-container{
+    margin-left: 130px;
+}
+.bg .menu-container li{
+    font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+    font-size: large;
+    font-weight: 700;
+    height: 87px;
+    margin-right: 20px;
+ }
+.bg .menu-container a{
+    margin-top: 30px;
+    color: white;
+ }

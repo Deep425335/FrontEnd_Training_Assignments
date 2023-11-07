@@ -1,0 +1,129 @@
+.card1{
+    /*background-image: url("CrossRiver.jpg");*/
+    
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px;
+    background-image: url("CrossRiver.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 800px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    }
+
+    .banner{
+      height: 600px;
+      width: 100%;
+      background-image: url(banner-default.svg);
+      background-size: cover;
+  }
+
+#card1{
+  
+    color: white;
+
+}
+
+#card1 li{
+    float: left;
+    margin: 15px;
+ 
+}
+
+#card1 ul{
+    margin-left: 0px;
+}
+
+.card2{
+    
+    display: inline-block;
+    padding: 10px;
+    background-image: url("johnHunterr.jpg");
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin: 5px;
+    background-size: cover;
+    margin-bottom: -380px;
+    
+
+}
+#card2 li{
+    float: left;
+    margin: 15px;
+    color: white;
+
+}
+
+.card3{
+    
+    display: inline-block;
+    padding: 10px;
+    background-image: url("johnHunterr.jpg");
+    height: 300px;
+    width: 380px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin: 10px;
+    background-size: cover;
+    
+}
+
+.card3:hover{
+   background-color: green;
+   
+}
+
+.pagination a {
+    border-radius: 40px;
+    color: white;
+    margin: 18px;
+    background-color: green;
+    
+
+  }
+  
+  .pagination a.active {
+    border-radius: 5px;
+  }
+ 
+  .pagination{
+ 
+    margin-left: 30px;
+  }
+
+  .page-footer{
+    background-color: green;
+  }
+
+  h5{
+    color: white;
+  }
+
+  .bg nav{
+    background-color: rgb(0,151,85);
+    opacity: 1;
+}
+.bg .menu-container i{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+   
+}
+.bg .menu-container{
+    margin-left: 130px;
+}
+.bg .menu-container li{
+    font-family: "Neue Haas Grotesk Display Pro",sans-serif;
+    font-size: large;
+    font-weight: 700;
+    height: 87px;
+    margin-right: 20px;
+ }
+.bg .menu-container a{
+    margin-top: 30px;
+    color: white;
+ }
+  
